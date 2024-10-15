@@ -54,6 +54,11 @@ var DefaultMX = [
 ]
 
 //
+// Import Domains from Domains Folder
+//
+//require_glob("./Domains/",true);
+
+//
 //Domains
 //
 D("example.com", REG_NONE, DnsProvider(DNS_CLOUDFLARE),DefaultTTL("5m"),
