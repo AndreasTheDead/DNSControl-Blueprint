@@ -11,8 +11,8 @@ Copy the API Token and your account id (The account ID can be find in the URL da
 
 ## 2. Add Secrets to Github
 
-In your repository go the repository settings -> Secrets and variables -> Actions and add a the repository settings -> Secrets and variables -> Actions.
-There add a secret named _CLOUDFLARE_API_TOKEN_ with your Token and a Variable named _CLOUDFLARE_API_ACCOUNTID_ with your account id.
+In your repository go the repository settings -> Secrets and variables -> Actions.
+There edit the secret named _CLOUDFLARE_API_TOKEN_ with your Token and the Variable named _CLOUDFLARE_API_ACCOUNTID_ with your account id.
 
 ## 3. Edit the dnsconfig.js
 
