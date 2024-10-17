@@ -1,6 +1,6 @@
 # DNSControl Blueprint
 
-This Repository is a quick way to start using DNS control with Cloudflare.
+This Repository is a quick way to start using [DNSControl](https://docs.dnscontrol.org/getting-started/getting-started) with Cloudflare.
 
 To start using just clone this repository and do the following:
 
@@ -24,4 +24,4 @@ You can move your domain configuration to separated files, for this remove the /
 
 ## More Information
 
-A more detailed explanation of the setup for DNSControl can be found on [ny Website](https://zeller.sh/article/cloud/dnspipeline.html)
+A more detailed explanation of the setup for DNSControl can be found on [my Website](https://zeller.sh/article/cloud/dnspipeline.html)
