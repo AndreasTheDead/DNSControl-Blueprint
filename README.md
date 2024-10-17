@@ -1,6 +1,6 @@
 # DNSControl Blueprint
 
-This Repository is a quick way to start using [DNSControl](https://docs.dnscontrol.org/getting-started/getting-started) with Cloudflare.
+This Repository is a quick way to start using [DNSControl](https://docs.dnscontrol.org/) with Cloudflare.
 
 To start using just clone this repository and do the following:
 
