@@ -48,11 +48,6 @@ var DefaultSPF = [
     })
 ]
 
-var DefaultMX = [
-    MX("@", 10, "mail.example.com."),
-    MX("@", 20, "mailsec.example.com.")
-]
-
 //
 // Import Domains from Domains Folder
 //
@@ -65,9 +60,13 @@ D("example.com", REG_NONE, DnsProvider(DNS_CLOUDFLARE),DefaultTTL("5m"),
     CF_PROXY_DEFAULT_OFF, //disables proxy default for that domain
     DefaultCAA,
     DefaultDMARC,
-    DefaultMX,
     DefaultSPF,
     ALIAS("@","dyn.example.com."),
     CNAME("www","example.com."),
-    A("test","8.8.8.8")
+    A("ipv4","8.8.8.8"),
+    A("ipv6","::1"),
+    MX("@", 10, "mail.example.com."),
+    //Ignore Let's Encrypt Records
+    IGNORE("_acme-challenge", "TXT"),
+    IGNORE("_acme-challenge.**", "TXT"),
 );
